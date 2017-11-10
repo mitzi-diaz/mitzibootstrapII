@@ -1,2 +1,167 @@
 cuando querasque tu pantalla tenga diferente comportamiento hay que marcar en la etiqueta cual va a se el comportamiento que se espera de acue4rdo al tamaño de pantalla
 	
+
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git init
+Reinitialized existing Git repository in D:/Sublime Text 3/Packages/CINTA BLANCA/dia11/.git/
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git remote add origin https://github.com/mitzi-diaz/mitzibootstrapII.git
+fatal: remote origin already exists.
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   bootstrap.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git add .
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git commit -m "no se que pasa con mi git "
+[master 82be43f] no se que pasa con mi git
+ 1 file changed, 1 insertion(+)
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ ^C
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git push --set-upstream origin master
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 647 bytes | 107.00 KiB/s, done.
+Total 7 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mitzi-diaz/mitzibootstrapII.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   bootstrap.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git add .
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git commit -m "sigo sin saber"
+[master b914241] sigo sin saber
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 339 bytes | 84.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/mitzi-diaz/mitzibootstrapII.git
+   82be43f..b914241  master -> master
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   bootstrap.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        instrucciones.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git add .
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git commit -m "cree lasinstrucciones"
+[master de6f28b] cree lasinstrucciones
+ 2 files changed, 6 insertions(+), 4 deletions(-)
+ create mode 100644 instrucciones.txt
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git up
+git: 'up' is not a git command. See 'git --help'.
+
+The most similar commands are
+        pull
+        push
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 631 bytes | 105.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/mitzi-diaz/mitzibootstrapII.git
+   b914241..de6f28b  master -> master
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git add .
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git commit -m"ya es toooodo el ejercicio de bootstrap"
+[master 776b51e] ya es toooodo el ejercicio de bootstrap
+ 5 files changed, 171 insertions(+), 15 deletions(-)
+ delete mode 100644 bootstrap.html
+ create mode 100644 index.html
+ create mode 100644 spotify.html
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$ git push
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 2.66 KiB | 453.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mitzi-diaz/mitzibootstrapII.git
+   de6f28b..776b51e  master -> master
+
+Mit@Mitzicornio MINGW32 /d/Sublime Text 3/Packages/CINTA BLANCA/dia11 (master)
+$
