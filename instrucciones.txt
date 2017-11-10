@@ -1,1 +1,2 @@
-fdgv
+cuando querasque tu pantalla tenga diferente comportamiento hay que marcar en la etiqueta cual va a se el comportamiento que se espera de acue4rdo al tamaño de pantalla
+	
